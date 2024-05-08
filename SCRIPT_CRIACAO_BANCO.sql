@@ -79,3 +79,36 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+
+-- DELETAR
+
+DELETE FROM `Usuario` WHERE `usuario_id` = <id_do_usuario>;
+
+DELETE FROM `UsoServico`;
+
+DELETE FROM `SuporteCliente` WHERE `suporte_id` = <id_do_suporte>;
+
+--ATUALIZAR
+
+UPDATE `Usuario` SET `nome` = 'Novo Nome', `data_nascimento` = '1990-01-01' WHERE `usuario_id` = <id_do_usuario>;
+
+UPDATE `UsoServico` SET `frequencia_uso` = 10, `generos_favoritos` = 'Ação, Comédia' WHERE `usuario_id` = <id_do_usuario>;
+
+UPDATE `SuporteCliente` SET `interacoes_suporte` = 'Nova interação' WHERE `suporte_id` = <id_do_suporte>;
+
+
+--INSERIR 
+
+INSERT INTO `Usuario` (`usuario_id`, `nome`, `data_nascimento`, `genero`, `inicio_associacao`, `termino_associacao`, `plano_assinatura`, `info_pagamento`, `status_renovacao`)
+VALUES (1, 'Novo Usuário', '1990-01-01', 'Masculino', '2024-05-08', '2025-05-08', 'Plano Básico', 'Cartão de Crédito', 'Ativo');
+
+INSERT INTO `UsoServico` (`usuario_id`, `frequencia_uso`, `generos_favoritos`, `metricas_engajamento`)
+VALUES (1, 5, 'Drama, Romance', 'Alta');
+
+INSERT INTO `SuporteCliente` (`suporte_id`, `usuario_id`, `interacoes_suporte`)
+VALUES (1, 1, 'Primeira interação de suporte');
+
+
+
