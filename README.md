@@ -37,11 +37,11 @@ Se desejar contribuir para o projeto, siga estas etapas:
 
 ## Integrantes da Equipe
 
-- [Kawã Bazante](link_para_perfil_github)
-- [Anna Júlia](link_para_perfil_github)
-- [Eduardo Oliveira](link_para_perfil_github)
-- [Nicole Galvão](link_para_perfil_github)
-- [José Paulo](link_para_perfil_github)
+- [Kawã Bazante](https://github.com/Beezte)
+- [Anna Júlia](https://github.com/JuliaaSilv)
+- [Eduardo Oliveira](https://github.com/duardoseme)
+- [Nicole Galvão](https://github.com/N1colegalvao)
+- [José Paulo](https://github.com/PauloSilvadev123)
 
 ---
 
