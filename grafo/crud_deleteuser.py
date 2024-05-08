@@ -26,6 +26,6 @@ if __name__ == "__main__":
     neo4j_crud = Neo4jCRUD(uri, user, password)
 
 
-    neo4j_crud.delete_usuario(3009)
+    neo4j_crud.delete_usuario(3011)
 
     neo4j_crud.close()

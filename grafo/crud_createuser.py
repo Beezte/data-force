@@ -29,7 +29,6 @@ class Neo4jCRUD:
             print(Fore.BLUE + f"Com o plano: {plano}")
             print(Fore.MAGENTA + "+---------------------------------+\n")
 
-
 if __name__ == "__main__":
     uri = "neo4j+s://be4fe8d1.databases.neo4j.io"
     user = "neo4j"
@@ -37,6 +36,6 @@ if __name__ == "__main__":
     neo4j_crud = Neo4jCRUD(uri, user, password)
 
     # Criar um novo usuário
-    neo4j_crud.create_usuario("Testeteste 4", "Inativo")
+    neo4j_crud.create_usuario("Eduardo Afonso", "Ativo")
 
     neo4j_crud.close()

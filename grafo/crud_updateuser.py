@@ -42,6 +42,6 @@ if __name__ == "__main__":
     neo4j_crud = Neo4jCRUD(uri, user, password)
 
     # para atualizar o status de um usuário pelo id
-    neo4j_crud.update_usuario(3010, "Ativo")
+    neo4j_crud.update_usuario(3010, "Inativo")
 
     neo4j_crud.close()
