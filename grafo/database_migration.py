@@ -14,7 +14,8 @@ graph = Graph("neo4j+s://be4fe8d1.databases.neo4j.io", auth=("neo4j", "r8__SdUDo
 cursor = mysql_conn.cursor()
 cursor.execute("SELECT * FROM Usuario")
 
-for (usuario_id, nome, data_nascimento, genero, inicio_associacao, termino_associacao, plano_assinatura, info_pagamento, status_renovacao) in cursor:
+for (usuario_id, nome, data_nascimento, genero, inicio_associacao, termino_associacao,
+     plano_assinatura, info_pagamento, status_renovacao) in cursor:
 
     user_node = Node("Usuario", id=usuario_id, nome=nome, data_nascimento=str(data_nascimento), genero=genero,
                      inicio_associacao=str(inicio_associacao), termino_associacao=str(termino_associacao),
