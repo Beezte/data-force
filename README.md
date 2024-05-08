@@ -1,8 +1,8 @@
-# Projeto de Aplicação de Banco de Dados
+# 📄 Projeto de Aplicação de Banco de Dados
 
 Este é o repositório do projeto de aplicação de banco de dados desenvolvido pela equipe [Nome do Grupo]. O projeto teve como objetivo principal trabalhar as capacidades de modelagem lógica e física, engenharia reversa a partir de um dataset pré-existente e utilização de bases de dados NoSQL.
 
-## Objetivos do Projeto
+## 📈 Objetivos do Projeto
 
 - Criar um modelo de dados lógico e físico utilizando o MySQL Workbench.
 - Desenvolver scripts SQL para criar, carregar e validar os dados no banco de dados relacional MySQL.
@@ -10,7 +10,7 @@ Este é o repositório do projeto de aplicação de banco de dados desenvolvido 
 - Preparar um tutorial sobre a tecnologia NoSQL escolhida, abordando os trade-offs de utilização e demonstrando sua aplicação prática.
 - Realizar a extração e carga dos dados no banco de dados NoSQL, garantindo sua integridade e consistência.
 
-## Ferramentas Utilizadas
+##🛠️ Ferramentas Utilizadas
 
 - MySQL Workbench
 - GitHub
@@ -18,7 +18,7 @@ Este é o repositório do projeto de aplicação de banco de dados desenvolvido 
 - IntelliJ IDEA
 - Grafo - Neo4j
 
-## Estrutura do Repositório
+##💻 Estrutura do Repositório
 
 - `scripts_sql/`: Contém os scripts SQL desenvolvidos para criação, carga e validação dos dados no MySQL.
 - `modelo_dados/`: Armazena o modelo de dados lógico e físico criado no MySQL Workbench.
